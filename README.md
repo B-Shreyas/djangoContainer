@@ -16,7 +16,7 @@ https://hub.docker.com/repository/docker/shreyas20/python_in_django
 ### Steps:
 - Clone this git repo.
 
-    `git clone https://github.com/`
+    `git clone https://github.com/B-Shreyas/djangoContainer.git`
 
  - Build a docker image using the Dockerfile in root directory of this repo.
 
