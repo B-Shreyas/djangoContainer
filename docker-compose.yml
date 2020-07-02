@@ -4,7 +4,7 @@ services:
     django:
         ports: 
             - "8800:8800"
-        image: anuragrana/pythondjango
+        image: shreyas20/pythondjango
         working_dir: /usr/src/app
         volumes:
             - ./:/usr/src/app
@@ -12,6 +12,6 @@ services:
             - mydb
  
     mydb:
-        image: anuragrana/mysql
+        image: shreyas20/mysql
         environment:
             MYSQL_ROOT_PASSWORD: root
